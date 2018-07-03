@@ -1,0 +1,11 @@
+# .slather.yml
+
+#coverage_service: coveralls
+xcodeproj: ./QuangThanh-DemoProject.xcodeproj
+workspace: ./QuangThanh-DemoProject.xcworkspace
+scheme: QuangThanh-DemoProject
+output_directory: ./test_output
+ignore:
+  - ./Pods/*
+  - ./QuangThanh-DemoProjectTests/*
+  - ./QuangThanh-DemoProjectUITests/*

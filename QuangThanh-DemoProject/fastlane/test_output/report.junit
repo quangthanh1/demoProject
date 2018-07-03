@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='QuangThanh-DemoProjectTests.xctest' tests='3' failures='0'>
+  <testsuite name='QuangThanh_DemoProjectUITests.QuangThanh_DemoProjectUITests' tests='1' failures='0'>
+    <testcase classname='QuangThanh_DemoProjectUITests.QuangThanh_DemoProjectUITests' name='testExample' time='4.411'/>
+  </testsuite>
+  <testsuite name='QuangThanh_DemoProjectTests.QuangThanh_DemoProjectTests' tests='2' failures='0'>
+    <testcase classname='QuangThanh_DemoProjectTests.QuangThanh_DemoProjectTests' name='testExample' time='0.001'/>
+    <testcase classname='QuangThanh_DemoProjectTests.QuangThanh_DemoProjectTests' name='testPerformanceExample' time='0.305'/>
+  </testsuite>
+</testsuites>
