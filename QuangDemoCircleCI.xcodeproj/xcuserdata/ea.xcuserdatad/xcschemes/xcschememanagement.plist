@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>QuangDemoCircleCI.xcscheme</key>
+		<key>QuangDemoCircleCI.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>04F1E7B920EB5D2800401BE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04F1E7CD20EB5D2900401BE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04F1E7D820EB5D2900401BE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
