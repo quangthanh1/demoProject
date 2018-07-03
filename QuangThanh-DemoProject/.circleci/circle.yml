@@ -1,5 +1,43 @@
 # circle.yml
+version: 2
+jobs:
+  build:
+    macos:
+      xcode: "9.3.0"
 
-test:
-  post:
-    - bundle exec slather
+    steps:
+      - checkout
+      
+      - restore_cache:
+          key: cli-studios-ios-gems{{ checksum "Gemfile.lock" }}
+      - run: 
+          name: install bundle
+          command: bundle install --jobs 4 --path vendor/bundle
+      - save_cache:
+          key: cli-studios-ios-gems{{ checksum "Gemfile.lock" }}
+          paths:
+            - ./vendor/bundle
+
+      - restore_cache:
+          key: cli-studios-ios-pods{{ checksum "Podfile.lock" }}
+      - run:
+          name: Install CocoaPods
+          command: |
+            curl https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash -s cf
+            pod install --project-directory=./
+      - save_cache:
+          key: cli-studios-ios-pods{{ checksum "Podfile.lock" }}
+          paths:
+            - ./Pods
+
+      - run:
+          name: Run tests
+          command: bundle exec fastlane scan --workspace "NepTunePPA.xcworkspace" --scheme "NepTunePPA" --device "iPhone X"
+
+      - run: 
+          name: Waitting Coverage generated
+          command: sleep 60
+
+      - run:
+          name: Test Coverage
+          command: bundle exec slather
