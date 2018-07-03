@@ -170,6 +170,7 @@ PLATFORMS
 DEPENDENCIES
   fastlane
   slather
+  xcodeproj (~> 1.5.6)
 
 BUNDLED WITH
    1.16.2
