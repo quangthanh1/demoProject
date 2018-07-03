@@ -22,6 +22,7 @@ jobs:
       - run:
           name: Install CocoaPods
           command: |
+            gem install cocoapods --pre
             curl https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash -s cf
             pod install --project-directory=./
       - save_cache:
