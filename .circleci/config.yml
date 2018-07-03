@@ -7,10 +7,6 @@ jobs:
 
     steps:
       - checkout
-      
-      - run:
-          name: Prepare .config files
-          command: echo $COVERALLS_REPO_TOKEN > ./.coveralls.yml
           
       - restore_cache:
           key: cli-studios-ios-gems{{ checksum "Gemfile.lock" }}
