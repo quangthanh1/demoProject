@@ -14,6 +14,9 @@
 		04F1E7C820EB5D2900401BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F1E7C620EB5D2900401BE3 /* LaunchScreen.storyboard */; };
 		04F1E7D320EB5D2900401BE3 /* QuangDemoCircleCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1E7D220EB5D2900401BE3 /* QuangDemoCircleCITests.swift */; };
 		04F1E7DE20EB5D2900401BE3 /* QuangDemoCircleCIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1E7DD20EB5D2900401BE3 /* QuangDemoCircleCIUITests.swift */; };
+		2F82742881F58F34BD5F1952 /* Pods_QuangDemoCircleCIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E9638BFB667999A4F3BA89 /* Pods_QuangDemoCircleCIUITests.framework */; };
+		4837CBB5785EB3FCEB991F2D /* Pods_QuangDemoCircleCITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA6C555193A97473E7808A8 /* Pods_QuangDemoCircleCITests.framework */; };
+		6DF88BD5B11DA9B72C978245 /* Pods_QuangDemoCircleCI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D477EBD6769942B326E567 /* Pods_QuangDemoCircleCI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02D477EBD6769942B326E567 /* Pods_QuangDemoCircleCI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuangDemoCircleCI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F1E7BA20EB5D2800401BE3 /* QuangDemoCircleCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuangDemoCircleCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F1E7BD20EB5D2800401BE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F1E7BF20EB5D2800401BE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		04F1E7D920EB5D2900401BE3 /* QuangDemoCircleCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuangDemoCircleCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F1E7DD20EB5D2900401BE3 /* QuangDemoCircleCIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuangDemoCircleCIUITests.swift; sourceTree = "<group>"; };
 		04F1E7DF20EB5D2900401BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B597895D0BAF063292CE83 /* Pods-QuangDemoCircleCI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuangDemoCircleCI.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuangDemoCircleCI/Pods-QuangDemoCircleCI.release.xcconfig"; sourceTree = "<group>"; };
+		5EA6C555193A97473E7808A8 /* Pods_QuangDemoCircleCITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuangDemoCircleCITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3BCE51EE6A8159528A82BA /* Pods-QuangDemoCircleCI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuangDemoCircleCI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuangDemoCircleCI/Pods-QuangDemoCircleCI.debug.xcconfig"; sourceTree = "<group>"; };
+		79358607A240BAA0282BB1BC /* Pods-QuangDemoCircleCITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuangDemoCircleCITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuangDemoCircleCITests/Pods-QuangDemoCircleCITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B76BE226EBF0016E94273EC /* Pods-QuangDemoCircleCITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuangDemoCircleCITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuangDemoCircleCITests/Pods-QuangDemoCircleCITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE9EB4199C9A01C2AF1FC2FD /* Pods-QuangDemoCircleCIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuangDemoCircleCIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuangDemoCircleCIUITests/Pods-QuangDemoCircleCIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E9002A85A57F3A80288F7067 /* Pods-QuangDemoCircleCIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuangDemoCircleCIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuangDemoCircleCIUITests/Pods-QuangDemoCircleCIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0E9638BFB667999A4F3BA89 /* Pods_QuangDemoCircleCIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuangDemoCircleCIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF88BD5B11DA9B72C978245 /* Pods_QuangDemoCircleCI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4837CBB5785EB3FCEB991F2D /* Pods_QuangDemoCircleCITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F82742881F58F34BD5F1952 /* Pods_QuangDemoCircleCIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				04F1E7D120EB5D2900401BE3 /* QuangDemoCircleCITests */,
 				04F1E7DC20EB5D2900401BE3 /* QuangDemoCircleCIUITests */,
 				04F1E7BB20EB5D2800401BE3 /* Products */,
+				C8FB95E820F0111BB52D5E35 /* Pods */,
+				F56CD0B05A1B2CAA0B91C19E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = QuangDemoCircleCIUITests;
 			sourceTree = "<group>";
 		};
+		C8FB95E820F0111BB52D5E35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F3BCE51EE6A8159528A82BA /* Pods-QuangDemoCircleCI.debug.xcconfig */,
+				37B597895D0BAF063292CE83 /* Pods-QuangDemoCircleCI.release.xcconfig */,
+				79358607A240BAA0282BB1BC /* Pods-QuangDemoCircleCITests.debug.xcconfig */,
+				7B76BE226EBF0016E94273EC /* Pods-QuangDemoCircleCITests.release.xcconfig */,
+				E9002A85A57F3A80288F7067 /* Pods-QuangDemoCircleCIUITests.debug.xcconfig */,
+				BE9EB4199C9A01C2AF1FC2FD /* Pods-QuangDemoCircleCIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F56CD0B05A1B2CAA0B91C19E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02D477EBD6769942B326E567 /* Pods_QuangDemoCircleCI.framework */,
+				5EA6C555193A97473E7808A8 /* Pods_QuangDemoCircleCITests.framework */,
+				F0E9638BFB667999A4F3BA89 /* Pods_QuangDemoCircleCIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F1E7E220EB5D2900401BE3 /* Build configuration list for PBXNativeTarget "QuangDemoCircleCI" */;
 			buildPhases = (
+				B094402076CD07109B28967A /* [CP] Check Pods Manifest.lock */,
 				04F1E7B620EB5D2800401BE3 /* Sources */,
 				04F1E7B720EB5D2800401BE3 /* Frameworks */,
 				04F1E7B820EB5D2800401BE3 /* Resources */,
@@ -149,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F1E7E520EB5D2900401BE3 /* Build configuration list for PBXNativeTarget "QuangDemoCircleCITests" */;
 			buildPhases = (
+				C8E7E5C7DEA20FF62B50E3D3 /* [CP] Check Pods Manifest.lock */,
 				04F1E7CA20EB5D2900401BE3 /* Sources */,
 				04F1E7CB20EB5D2900401BE3 /* Frameworks */,
 				04F1E7CC20EB5D2900401BE3 /* Resources */,
@@ -167,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F1E7E820EB5D2900401BE3 /* Build configuration list for PBXNativeTarget "QuangDemoCircleCIUITests" */;
 			buildPhases = (
+				410B6D16CD8B08E6EE396B18 /* [CP] Check Pods Manifest.lock */,
 				04F1E7D520EB5D2900401BE3 /* Sources */,
 				04F1E7D620EB5D2900401BE3 /* Frameworks */,
 				04F1E7D720EB5D2900401BE3 /* Resources */,
@@ -250,6 +293,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		410B6D16CD8B08E6EE396B18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuangDemoCircleCIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B094402076CD07109B28967A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuangDemoCircleCI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E7E5C7DEA20FF62B50E3D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuangDemoCircleCITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04F1E7B620EB5D2800401BE3 /* Sources */ = {
@@ -428,6 +528,7 @@
 		};
 		04F1E7E320EB5D2900401BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3BCE51EE6A8159528A82BA /* Pods-QuangDemoCircleCI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +547,7 @@
 		};
 		04F1E7E420EB5D2900401BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B597895D0BAF063292CE83 /* Pods-QuangDemoCircleCI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +566,7 @@
 		};
 		04F1E7E620EB5D2900401BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79358607A240BAA0282BB1BC /* Pods-QuangDemoCircleCITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +587,7 @@
 		};
 		04F1E7E720EB5D2900401BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B76BE226EBF0016E94273EC /* Pods-QuangDemoCircleCITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +608,7 @@
 		};
 		04F1E7E920EB5D2900401BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9002A85A57F3A80288F7067 /* Pods-QuangDemoCircleCIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +628,7 @@
 		};
 		04F1E7EA20EB5D2900401BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9EB4199C9A01C2AF1FC2FD /* Pods-QuangDemoCircleCIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
