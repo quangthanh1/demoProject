@@ -38,7 +38,7 @@ jobs:
 
       - run: 
           name: Waitting Coverage generated
-          command: sleep 60
+          command: sleep 5
 
       - run:
           name: Test Coverage
