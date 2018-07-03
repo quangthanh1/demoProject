@@ -17,7 +17,17 @@ jobs:
           key: cli-studios-ios-gems{{ checksum "Gemfile.lock" }}
           paths:
             - ./vendor/bundle
-
+      - restore_cache:
+          key: cli-studios-ios-pods{{ checksum "Podfile.lock" }}
+      - run:
+          name: Install CocoaPods
+          command: |
+            curl https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash -s cf
+            pod install --project-directory=./
+      - save_cache:
+          key: cli-studios-ios-pods{{ checksum "Podfile.lock" }}
+          paths:
+            - ./Pods
       - run:
           name: Run tests
           command: bundle exec fastlane scan --workspace "QuangDemoCircleCI.xcworkspace" --scheme "QuangDemoCircleCI" --device "iPhone X"
