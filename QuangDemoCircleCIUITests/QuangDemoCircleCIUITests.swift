@@ -1,6 +1,6 @@
 //
-//  QuangThanh_DemoProjectUITests.swift
-//  QuangThanh-DemoProjectUITests
+//  QuangDemoCircleCIUITests.swift
+//  QuangDemoCircleCIUITests
 //
 //  Created by ea on 7/3/18.
 //  Copyright © 2018 ea. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class QuangThanh_DemoProjectUITests: XCTestCase {
+class QuangDemoCircleCIUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

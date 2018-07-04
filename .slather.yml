@@ -1,0 +1,11 @@
+ci_service: circleci
+coverage_service: coveralls
+xcodeproj: QuangDemoCircleCI.xcodeproj
+workspace: QuangDemoCircleCI.xcworkspace
+source_directory: ./
+scheme: QuangDemoCircleCI
+ignore:
+  - Pods/*
+  - QuangDemoCircleCITests/*
+  - QuangDemoCircleCIUITests/*
+  - ../**/*/Xcode*

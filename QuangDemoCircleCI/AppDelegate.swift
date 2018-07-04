@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  QuangThanh-DemoProject
+//  QuangDemoCircleCI
 //
 //  Created by ea on 7/3/18.
 //  Copyright © 2018 ea. All rights reserved.
